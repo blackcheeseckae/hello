@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration 
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- Alias 설정 -->
+	<!-- 회원 -->
+	<typeAliases>
+		<typeAlias alias="member" type="com.mrshop.model.member.MemberVO" />
+		<typeAlias alias="productinfo" type="com.mrshop.model.product.ProductInfoVO" />
+		<typeAlias alias="productcart" type="com.mrshop.model.cart.ProductCartVO" />
+		<typeAlias alias="payment" type="com.mrshop.model.payment.PaymentVO" />
+		<typeAlias alias="board" type="com.mrshop.model.board.BoardVO" />
+	</typeAliases>
+	
+	<!-- Sql Mapper 설정 -->
+	<!-- 회원 -->
+	<mappers>
+		<mapper resource="mappings/member/member-mapping.xml" />
+		<mapper resource="mappings/product/productinfo-mapping.xml" />
+		<mapper resource="mappings/product/productcart-mapping.xml" />
+		<mapper resource="mappings/product/payment-mapping.xml" />
+		<mapper resource="mappings/board/board-mapping.xml" />
+	</mappers>
+</configuration>

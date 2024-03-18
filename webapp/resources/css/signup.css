@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+::-ms-input-placeholder {
+	color: #a8a8a8;
+}
+
+::-webkit-input-placeholder {
+	color: #a8a8a8;
+}
+
+::-moz-placeholder {
+	color: #a8a8a8;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size: 35px;
+}
+
+body {
+	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+	font-size: 16px;
+	background: #fff;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#sign {
+	position: relative;
+	top: 10px;
+	left: 880px;
+}
+
+th {
+	text-align: left;
+}
+
+.term_btn {
+	text-align: right;
+}
+
+.input {
+	height: 23px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	 border : none;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+	outline: none !important;
+	border: 3px solid #9CCEFF;
+	 border-radius: 5px;
+}
+
+select:focus {
+	outline: none !important;
+	border: 1px solid #9CCEFF;
+	 border-radius: 5px;
+}
+
+
+
+.buttons{
+	font-family: 돋움;
+	background-color: rgba(0,0,0,0.3);
+	width: 60px;
+	height: 30px;
+	border: none;
+	outline: none;
+	color: white;
+}
+
+#jointable{
+	  background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    width: 400px;
+    margin: 0px auto;
+    border : bold;
+}

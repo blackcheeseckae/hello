@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.firstString{
+	 font-family: 'Cafe24Ssurround', sans-serif;
+	 font-size: 40px;
+	 text-align: center;
+	 margin-bottom: 5px;
+}
+
+.secondString{
+	 font-family: 'Cafe24Ssurround', sans-serif;
+	 font-size: 24px;
+	 text-align: center;
+	 color: rgba(0,0,0,0.4);
+	 margin-top: 5px;
+}
+
+
+
+.name {
+	margin:0px auto;
+	
+}
+.list1 {
+	color: #fff;
+	background: #000000;
+	background: rgba(0, 0, 0, 0.6);
+	border-top: 1px solid;
+	border-bottom:1px solid;
+	
+}
+.list2 {
+	background: #fff;
+	border-bottom:1px solid;
+	border-color: #ffffff;
+}
+.check2 {
+	font-family: 돋움;
+	background: rgba(0, 0, 0, 0.5);
+	width: 50px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+	color: white;
+	border-radius: 2px;
+}
+#searchOption {
+	
+	border-radius: 2px;
+	height: 30px;
+	width: 125px;
+	margin: 10px;
+	border: 1px solid #000000;
+	background: #ffffff;
+	height: 25px;
+}
+#keyword {
+	border: 1px solid #000000;
+	background: #ffffff;
+	height: 25px;
+	border-radius: 2px;
+}
+.text {
+	background: rgba(0, 0, 0, 0.5);
+	width: 60px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+.textb {
+	border: 1px solid #8D8D8C;
+	}
+.write {
+	background: rgba(0, 0, 0, 0.6);
+	width: 75px;
+	height: 25px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+.listp {
+	background: rgba(0, 0, 0, 0.6);
+	width: 50px;
+	height: 25px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+.asd{
+	position: relative;
+	top:10px;
+	left: 10px;
+	font-size: 16px;
+}
+
+#listtable {
+	width: 1200px;
+	margin : 0px auto;
+	
+}
+
+#writetable{
+	width: 1200px;
+}
+
+#title{
+	height: 24px;
+}
+
+#title::placeholder {
+    font-size: 16px; /* 원하는 크기로 지정하세요 */
+}

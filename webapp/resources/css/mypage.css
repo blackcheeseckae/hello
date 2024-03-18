@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size: 35px;
+	text-align : center;
+}
+
+.orderlist td{
+	border-bottom:1px solid;
+	border-color: #E1DCDC;
+}
+.list{
+	height: 50px;
+	background-color : rgba(0,0,0,0.3);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position:relative;
+}
+.mypage{
+	position:relative;
+	left:1330px;
+	top:20px;
+}
+.revise{
+	height: 25px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+.delete{
+	height: 25px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+.pwcheck{
+	margin-top:100px;
+	width:500px;
+	height: 150px;
+	background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin: 0px auto;
+    border : bold;
+}
+.pwcheck th{
+	padding-bottom: 20px;
+}
+.checkbtn{
+	margin-bottom: 300px;
+}
+
+
+input[type=button] {
+	border: none;
+	background-color : rgba(0,0,0,0.5);
+	color: white;
+}
+.orderbar{
+	background-color : rgba(0,0,0,0.6);
+	color: fff;
+}
+#mytd{
+	background-color : rgba(0,0,0,0.6);
+	text-align: left;
+	color: fff;
+	
+}
+
+#mybt{
+	width: 50px;
+	heigt: 15px;
+}
+
+#jointable{
+	  background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    width: 800px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    border : bold;
+}

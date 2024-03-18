@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+::-ms-input-placeholder {
+	color: #a8a8a8;
+}
+
+::-webkit-input-placeholder {
+	color: #a8a8a8;
+}
+
+::-moz-placeholder {
+	color: #a8a8a8;
+}
+
+.input {
+	height: 23px;
+}
+
+body {
+	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	padding: 20px;
+	background: #fff;
+	padding: 0;
+}
+
+#container {
+	
+	margin: 0 auto;
+	width: 900px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size : 25px;
+	position: relative;
+}
+
+#oSW, #oSI, #oSD, #oSP, #pay, #paymoney {
+	
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	border-top: 2px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#oSW, #oSI, #oSD, #oSP {
+	font-size: 15px;
+}
+
+#pay, #paymoney {
+	font-size: 20px;
+}
+
+th {
+	
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#ordersheet {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+	resize: none;
+}
+
+input[type=button] {
+	position: relative;
+	margin: 10px auto;
+	width: 90px;
+	height: 50px;
+	border: 0px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+input[name=nn_searchPost] {
+	text-align: center;
+	border: 0px;
+	width: 100px;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	margin: 5px;
+}
+
+#paymoney th {
+	background-color: #fff;
+	text-align: center;
+}

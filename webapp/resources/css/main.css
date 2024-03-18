@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Cafe24Ssurround', sans-serif; /* 원하는 글꼴로 변경하세요 */
+	font-size: 45px;
+	font-weight: 100;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+th {
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size: 18px;
+}
+section {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+/* 메인 슬라이드 div 스타일 */
+.contents {
+	top: 40px;
+	width: 100%;
+	height: 650px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.banner {
+	position: relative;
+	width: 1380px;
+	height: 550px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.banner ul {
+	position: absolute;
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+	width: 1380px;
+	height: 550px;
+	margin: 0;
+	padding: 0;
+}
+
+.slide, .slide2, .slide3, .slide4, .slide5 {
+	overflow: hidden;
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	left: 5px;
+}
+
+.slide ul, .slide2 ul, .slide3 ul, .slide4 ul, .slide5 ul {
+	width: 5000px;
+	position: absolute;
+	top: 0;
+	left: -42px;
+	font-size: 0;
+}
+
+.slide ul li, .slide2 ul li, .slide3 ul li, .slide4 ul li, .slide5 ul li {
+	display: inline-block;
+}
+
+.slide ul li img, .slide2 ul li img, .slide3 ul li img, .slide4 ul li img, .slide5 ul li img{
+	width: 200px;
+}
+
+#back, #back2, #back3, #back4, #back5 {
+	position: relative;
+	top: 120px;
+	cursor: pointer;
+	z-index: 1;
+	left: 100px;
+	overflow: visible;
+}
+
+#next, #next2, #next3, #next4, #next5 {
+	position: relative;
+	top: -219px;
+	cursor: pointer;
+	z-index: 400;
+	left: 1300px;
+	overflow: visible;
+}
+
+#ca {
+	font-family: 'Nanum Myeongjo', serif;
+	margin : 0px auto;
+}
+
+#brtr{
+	cursor: pointer;
+	width: 250px; 
+	height: 100px;
+}
+#brtd img:hover {transform: scale(1.2, 1.2); transition-duration: 0.5s;}
+#brtd img {transition-duration: 0.3s;}
+
+#a img:hover{
+	transform: scale(1.2, 1.2); transition-duration: 0.5s;
+}
+#a img {
+	transition-duration: 0.3s;
+}
+
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.firstString{
+	 font-family: 'Cafe24Ssurround', sans-serif;
+	 font-size: 54px;
+	 text-align: center;
+	 margin-bottom: 5px;
+}
+
+.secondString{
+	 font-family: 'Cafe24Ssurround', sans-serif;
+	 font-size: 28px;
+	 text-align: center;
+	 color: rgba(0,0,0,0.4);
+	 margin-top: 5px;
+}
+
+.brand{
+	cursor: pointer;
+	width: 250px;
+	height: 100px;					
+}
+
+.buttons{
+	border: none;
+	background-color : rgba(0,0,0,0.5);
+	color: white;
+}

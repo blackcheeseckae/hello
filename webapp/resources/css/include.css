@@ -1,0 +1,330 @@
+@CHARSET "UTF-8";
+
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	padding: 20px;
+	background: #fff;
+	padding: 0;
+}
+
+table {
+	 margin: 0 auto;
+	 width: 1400px;
+}
+
+#logo{
+	padding-left: 80px;
+	
+}
+ #logo img:hover {transform: scale(1.2, 1.2); transition-duration: 0.5s;}
+ #logo img {transition-duration: 0.3s;}
+
+table td {
+
+}
+
+#searchbar{
+	height: 40px;
+	width: 600px;
+	margin: 10px auto;
+	border-radius: 5px; /* 원하는 둥근 정도를 픽셀 단위로 지정합니다. */
+	border: 3px solid #000000;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	background: #ffffff;
+	
+}
+
+#main_title {
+	width: 1400px;
+	left: 50%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#icon {
+    width: auto; 
+    text-align: right;
+}
+
+span {
+	color: #000000;
+	position: relative;
+	top: 0px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#search {
+	float: right;
+	height: 25px;
+	width: 200px;
+	margin: 10px;
+	border: 1px solid #7FB3FA;
+	background: #ffffff;
+}
+
+#sPrd {
+	width: 500px;
+	padding: 5px;
+	border: 0px;
+	outline: none;
+	float: left;
+	font-size : 20px;
+}
+
+#searchBtn {
+	width: 75;
+	background-color: rgba(0,0,0,0.5);
+	width: 50px;
+	height: 100%;
+	border: 0px;
+	outline: none;
+	float: right;
+	color: white;
+	border-radius: 2px; /* 원하는 둥근 정도를 픽셀 단위로 지정합니다. */
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#searchBtn:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+
+#nav {
+	width: 1400px;
+	text-align: center;
+	font-family: 'Cafe24Ssurround', sans-serif;
+	font-size: 28px;
+	margin: 0px auto;
+}
+
+#nav ul {
+	top: 10px;
+	margin: 0;
+	z-index: 200;
+	padding: 15px 0px;
+	list-style: none;
+	border-width: 100%;
+}
+
+#nav ul li {
+	padding-top : 20px;
+	position: relative;
+	font-family: 'Cafe24Ssurround', sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	background: #ffffff;
+	cursor: pointer;
+	color: #000000;
+	width: 200px;
+	height: 40px;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	display: inline-block;
+	 
+}
+
+#nav ul li:hover {
+	
+    background: #000000;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    width: 230px;
+    font-size:30px;
+}
+
+#nav ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	font-size:24px;
+}
+
+#nav ul li ul {
+	padding-top : 20px;
+	position: absolute;
+	top: 39px;
+	left: 0;
+	width: 230px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+	-webkit-box-shadow: none;
+	font-size: 24px;
+}
+
+#nav ul li ul li {
+	background: #000000;
+	display: block;
+	color: #fff;
+	width: 230px;
+	background: rgba(0, 0, 0, 0.6); /* 투명도 추가 */
+	font-size: 24px;
+	padding-top: 20px;
+}
+
+#nav ul li ul li:hover {
+	
+	background: #000000;
+	background: rgba(0, 0, 0, 0.8);
+	font-size: 28px;
+	
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.Mirror {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.liTop {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.liBot {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.contact {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#fivetb {
+	margin: auto;
+	border-collapse: collapse;
+	border-top: 1px solid none;
+
+}
+
+#fivetb th, td {
+	border-bottom: 1px solid none;
+	padding: 10px;
+}
+
+#info {
+	width: 1380px;
+	margin: auto;
+	margin-top:200px;
+	padding: 10px;
+	position: relative;
+	text-align: left;
+	border-top: 2px solid;
+	font-size: 16px;
+}
+
+.MM {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    max-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Cursive', sans-serif;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    animation: fancyBanner 5s infinite alternate;
+    font-weight: 600;
+}
+
+@keyframes fancyBanner {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+.MM canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.menubutton {
+	font-size: 14px;
+	font-family: 'Cafe24Ssurround', sans-serif;
+}
+
+
+#floatMenu{
+position: absolute;
+width: 120px;
+height: 120px;
+top: 750px;
+left:92%;
+background-color: rgba(0,0,0,0.7);
+opacity:0.8;
+color: #fff;
+text-align:center;
+border-radius:10px 10px 10px 10px;
+}
+.myhr{
+border:0;
+height:2px;
+background:#fff;
+}
+
+.scroll-top {
+	opacity:0.8;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.7);
+    opacity: .8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor:pointer;
+}
+
+#topbutton{
+	color:#fff;
+	font-size:14px;
+}
+
+.quickmenu{
+	font-family: 'Cafe24Ssurround', sans-serif;
+	cursor: pointer;
+	font-size:16px;
+	color: #fff;
+}
+
